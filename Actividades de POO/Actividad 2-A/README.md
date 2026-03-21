@@ -23,6 +23,7 @@ Agregar calificaciones
 Obtener nombre
 Calcular promedio
 Mostrar información del estudiante
+
 🔹 Funcionalidad:
 Se crean instancias de estudiantes y se realizan operaciones como agregar calificaciones y calcular su promedio,
 demostrando el uso de objetos en Python.
