@@ -1,14 +1,14 @@
-
+# Importa el módulo para clases abstractas
 from abc import ABC, abstractmethod
 
 class Mob(ABC):
-   
+    """Clase abstracta base para todos los mobs."""
 
     def __init__(self, nombre: str, vida: int):
         self.nombre = nombre
         self.vida   = vida
 
-    
+    # Métodos ABSTRACTOS: cada mob DEBE implementarlos
 
     @abstractmethod
     def hacer_sonido(self) -> str:
@@ -25,6 +25,7 @@ class Mob(ABC):
         """Describe cómo se mueve el mob."""
         pass
 
+    # Método CONCRETO: igual para todos los mobs
 
     def presentarse(self):
         print(f"=== {self.nombre} ===")
@@ -33,5 +34,3 @@ class Mob(ABC):
         print(f"⚔️  Tipo       : {self.comportamiento()}")
         print(f"🏃  Movimiento : {self.moverse()}")
         print()
-
-

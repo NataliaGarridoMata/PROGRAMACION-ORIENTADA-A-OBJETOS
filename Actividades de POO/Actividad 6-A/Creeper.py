@@ -1,13 +1,13 @@
 from Mob import Mob
 
-class Vaca(Mob):
-    """Mob pasivo, suena 'Muuuu', camina lento."""
+class Creeper(Mob):
+    """Mob explosivo, suena 'sss', camina lento."""
     # TODO: implementa hacer_sonido, comportamiento, moverse
     def hacer_sonido(self) -> str:
-        return "Muuuu"
+        return "sss"
 
     def comportamiento(self) -> str:
-        return "pasivo"
+        return "explosivo"
 
     def moverse(self) -> str:
         return "camina lento"
