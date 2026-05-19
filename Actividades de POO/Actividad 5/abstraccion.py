@@ -22,6 +22,6 @@ class Gato(Animal):
     
 #usar las clases
 perro1 = Perro()
-gato1 = Gato()  
-        
-    
+gato1 = Gato()
+print(Perro().hablar())
+print(Gato().hablar())

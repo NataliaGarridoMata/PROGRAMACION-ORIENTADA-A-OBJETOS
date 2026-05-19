@@ -9,4 +9,5 @@ class Arquero(Aventurero):
 
     
     def usar_habilidad(self):
-        print(f"{self.nombre}  dispara una flecha! Le quedan {self.flechas}. 🏹")
+       
+     print(f"{self.nombre}  dispara una flecha! Le quedan {self.flechas}. 🏹")

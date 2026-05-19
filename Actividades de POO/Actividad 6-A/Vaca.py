@@ -13,3 +13,5 @@ class Vaca(Mob):
     def moverse(self) -> str:
         return "camina lento"
 
+    def habilidad(self) -> str: 
+        return "Leche nutritiva"
