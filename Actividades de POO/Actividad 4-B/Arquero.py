@@ -7,5 +7,6 @@ class Arquero(Aventurero):
         super().__init__(nombre, nivel)
         self.flechas = flechas
 
+    
     def usar_habilidad(self):
-        print(f"{self.nombre} dispara una flecha! Le quedan {self.flechas}. 🏹")
+        print(f"{self.nombre}  dispara una flecha! Le quedan {self.flechas}. 🏹")
