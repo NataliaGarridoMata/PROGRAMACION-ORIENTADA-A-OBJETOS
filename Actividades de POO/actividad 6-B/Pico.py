@@ -1,6 +1,4 @@
 from Herramientas import Herramientas 
-from Herramientas import Herramientas
-
 
 class Pico (Herramientas):
     """Mina bloques de piedra, carbón, hierro, etc."""

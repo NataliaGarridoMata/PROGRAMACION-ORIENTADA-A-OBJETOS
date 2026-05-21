@@ -18,3 +18,4 @@ for herramienta in herramientas:
     herramienta.estado()  # Muestra el estado después de usarla 
     print()  # Línea en blanco para separar cada herramienta
     
+    
